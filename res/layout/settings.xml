@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+	android:id="@+id/widget35"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:textColor="#FF000000"
+	android:background="#FF000000"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView
+    android:id="@+id/setting_text0"
+    android:layout_width="109dp"
+    android:layout_height="56dp"
+    android:background="#FF222222"
+    android:text="@string/amount"
+    android:textColor="#FFffffff"
+    android:textSize="26sp" />
+
+<TextView
+    android:id="@+id/questionNumber"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:textColor="#FFAAAAAA"
+    android:textSize="24sp" />
+
+<LinearLayout
+	android:id="@+id/widget69"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF222222" >
+
+        <TextView
+            android:id="@+id/setting_text1"
+            android:layout_width="109dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.58"
+            android:text="@string/timer"
+            android:textColor="#FFffffff"
+            android:alpha="0.8"
+            android:textSize="26sp" />
+
+        <ToggleButton
+            android:id="@+id/toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:text="On"
+            android:textOff="@string/off"
+            android:textOn="@string/on"
+            android:textColor="#FFffffff"
+            
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+<TextView
+    android:id="@+id/setting_text3"
+    android:layout_width="109dp"
+    android:layout_height="80dp"
+    android:layout_marginLeft="30dp"
+    android:textColor="#FFAAAAAA"
+    android:textSize="24sp" />
+<TextView
+    android:id="@+id/score"
+    android:layout_width="109dp"
+    android:layout_height="70dp"
+    android:background="#FF222222"
+    android:text="How many points for a question"
+    android:textColor="#FFffffff"
+    android:textSize="26sp" />
+<TextView
+    android:id="@+id/point"
+    android:layout_width="109dp"
+    android:layout_height="80dp"
+    android:layout_marginLeft="30dp"
+    android:textColor="#FFAAAAAA"
+    android:textSize="24sp" />
+</TableLayout>

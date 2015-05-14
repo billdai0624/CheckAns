@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Finals</string>
+    <string name="title_section1">Setting</string>
+    <string name="title_section2">Take a quiz</string>
+    <string name="title_section3">About</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+	<string name="amount">Quantity of your questions</string>
+	<string name="timing">Timer will record how much time you take</string>
+	<string name="quizTime">Quiz time:</string>
+	<string name="off">Off</string>
+	<string name="on">On</string>
+	<string name="timer">Timer</string>
+	<string name="RB1">Timing</string>
+	<string name="RB2">Countdown</string>
+	<string name="hint_input">Numbers only</string>
+    <string name="choicebt0">A</string>
+    <string name="choicebt1">B</string>
+    <string name="choicebt2">C</string>
+    <string name="choicebt3">D</string>
+    <string name="choicebt4">E</string>
+    <string name="quiz_num">1</string>
+    <string name="current_quiz_num">0</string>
+    <string name="leftTime">00:00</string>
+    <string name="prevbt">&lt;&lt;</string>
+    <string name="nextbt">&gt;&gt;</string>
+    <string name="submitbt">Submit</string>
+    <string name="choicebt5">F</string>
+    <string name="please">Please enter the correct answer</string>
+    <string name="ans_text">Your answer is</string><string name="user_ans">A</string>
+    <string name="nextBt">Next</string>
+    <string name="prevBt">Prev</string>
+    <string name="correct_ans">A</string>
+    <string name="totalQuestion">0</string>
+    <string name="spentTime">You spent</string>
+    <string name="user_ans_tittle">User Ans</string>
+    <string name="correct_ans_tittle">Correct Ans</string>
+    <string name="exitbt">Exit</string>
+    <string name="thought"><u>開發想法</u></string>
+	
+</resources>
